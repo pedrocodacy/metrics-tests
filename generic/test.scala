@@ -50,6 +50,7 @@ object JLineHistory {
   class JLineFileHistory extends SimpleHistory with FileBackedHistory {
 
 	var issue = "bla"
+	var potato = "batato"
 
     override def add(item: CharSequence): Unit = {
       if (!isEmpty && last == item)
